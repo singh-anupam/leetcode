@@ -22,9 +22,9 @@ class Solution {
                 res[0]=rm[0];
                 res[1]=max;
             }
-            System.out.println(res[1]-res[0]);
+//             System.out.println(res[1]-res[0]);
             
-            System.out.println(rm[0]+" "+max);
+//             System.out.println(rm[0]+" "+max);
            
             int r = rm[1];
             int c = rm[2];
