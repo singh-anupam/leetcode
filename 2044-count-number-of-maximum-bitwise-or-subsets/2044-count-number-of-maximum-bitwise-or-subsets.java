@@ -8,11 +8,15 @@ class Solution {
             
         } 
         
-       return find(nums,0,0,maxOr);
+        int dp[][] = new int[nums.length][maxOr+1];
+        for(int arr[] : dp)
+            Arrays.fill(arr,-1);
+        
+       return find(nums,0,0,maxOr,dp);
         
     }
     
-    private int find(int nums[], int i,int curOr, int maxOr)
+    private int find(int nums[], int i,int curOr, int maxOr, int dp[][])
     {
         
             
@@ -21,8 +25,11 @@ class Solution {
         if(i==nums.length)
             return 0;
         
-        int take = find(nums,i+1,nums[i]|curOr,maxOr);
-        int notTake = find(nums,i+1,curOr,maxOr);
-        return take+notTake;
+        if(dp[i][curOr]!=-1)
+            return dp[i][curOr];
+        
+        int take = find(nums,i+1,nums[i]|curOr,maxOr,dp);
+        int notTake = find(nums,i+1,curOr,maxOr,dp);
+        return dp[i][curOr]=take+notTake;
     }
 }
