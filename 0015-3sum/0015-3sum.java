@@ -17,7 +17,6 @@ class Solution {
                 if((nums[l]+nums[r]+sum)==0)
                 {
                     List<Integer> list =Arrays.asList(nums[i],nums[l],nums[r]);
-                   // if(ans.size()==0 || !isSame(ans.get(ans.size()-1),list))
                     ans.add(list);
                  
                 }
