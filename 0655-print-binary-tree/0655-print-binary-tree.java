@@ -51,16 +51,16 @@ class Solution {
                 int r = rm.row;
                 int c = rm.col;
                 list.set(c,rm.node.val+"");
-                System.out.println("col "+c);
+               // System.out.println("col "+c);
                 
                 if(rm.node.left!=null)
                 {
-                    System.out.println("left "+(c-(int)Math.pow(2,d-r-1)));
+                  //  System.out.println("left "+(c-(int)Math.pow(2,d-r-1)));
                     queue.offer(new Pair(rm.node.left,r+1,c-(int)Math.pow(2,d-r-1)));
                 }
                 if(rm.node.right!=null)
                 {
-                    System.out.println("right "+(c+(int)Math.pow(2,d-r-1)));
+                 //   System.out.println("right "+(c+(int)Math.pow(2,d-r-1)));
                     queue.offer(new Pair(rm.node.right,r+1,c+(int)Math.pow(2,d-r-1)));
                 }
             }
