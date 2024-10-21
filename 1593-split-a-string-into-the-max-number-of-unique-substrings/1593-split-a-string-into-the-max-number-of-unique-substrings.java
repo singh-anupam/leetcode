@@ -16,12 +16,12 @@ class Solution {
             
             return;
         }
-        System.out.println(set + " "+set.size());
+      //  System.out.println(set + " "+set.size());
         
         for(int i=idx+1;i<=s.length();i++)
         {
             String str =substring(s,idx,i);
-            System.out.println(str);
+        //    System.out.println(str);
             if(!set.contains(str))
             {
                 
