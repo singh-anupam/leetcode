@@ -35,7 +35,7 @@ class CBTInserter {
                 q.offer(rm.right);
                 q.poll();
             }
-            if(rm.left!=null || rm.right!=null)
+            if(rm.left==null || rm.right==null)
             break;
         }
 
