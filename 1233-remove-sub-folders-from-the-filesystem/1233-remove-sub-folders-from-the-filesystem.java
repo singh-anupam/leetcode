@@ -1,7 +1,7 @@
 class Solution {
     public List<String> removeSubfolders(String[] folder) {
         Arrays.sort(folder);
-        Set<String> set = new HashSet<>();
+        List<String> set = new ArrayList<>();
         for(String str :  folder)
         {
             String s ="";
@@ -22,11 +22,11 @@ class Solution {
             set.add(s);
         }
 
-        List<String> ans = new ArrayList<>();
-        for(String s : set)
-        ans.add(s);
+        // List<String> ans = new ArrayList<>();
+        // for(String s : set)
+        // ans.add(s);
 
-        return ans;
+        return set;
 
     }
 }
