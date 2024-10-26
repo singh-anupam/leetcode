@@ -19,13 +19,24 @@ class Solution {
         int height[] = new int[100001];
         int level[] =new int[100001];
         int maxHeight[][] = new int[100001][2];
+        for(int i=0;i<100001;i++)
+        {
+            maxHeight[i][1]=-1;
+            maxHeight[i][0]=-1;
+        }
+       // Arrays.fill(maxHeight)
        int max =  dfs(root,0,height,level,maxHeight);
       
         int ans[] = new int[queries.length];
         for(int i=0;i<queries.length;i++)
         {
             int val = queries[i];
+            // if(maxHeight[level[val]][0]==height[val] && maxHeight[level[val]][1]==0 )
+            // ans[i]=level[val]-1;
+            // else
             ans[i]=level[val]+(height[val]==maxHeight[level[val]][0]?maxHeight[level[val]][1]:maxHeight[level[val]][0]);
+          System.out.println("****"+val+" "+level[val]+" "+height[val]+" "+maxHeight[level[val]][0]+" "+maxHeight[level[val]][1]);
+   
         }
 
         return ans;
@@ -41,7 +52,7 @@ class Solution {
         int left = dfs(root.left,level+1,height,levelHeight,maxHeight);
         int right = dfs(root.right,level+1,height,levelHeight,maxHeight);
         height[root.val]=Math.max(left,right)+1;
-        if(maxHeight[level][0]<=height[root.val])
+        if(maxHeight[level][0]<height[root.val])
         {
             maxHeight[level][1]=maxHeight[level][0];
             maxHeight[level][0]=height[root.val];
@@ -51,6 +62,7 @@ class Solution {
         {
             maxHeight[level][1]=height[root.val];
         }
+        System.out.println(root.val+" "+level+" "+height[root.val]+" "+levelHeight[root.val]+" "+maxHeight[level][0]+" "+maxHeight[level][1]);
         
         return Math.max(left,right)+1;
     }
