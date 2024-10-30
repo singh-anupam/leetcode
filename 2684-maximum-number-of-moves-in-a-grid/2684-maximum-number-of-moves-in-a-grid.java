@@ -46,8 +46,8 @@ class Solution {
 
           
         }
-        printMatrix(grid);
-        System.out.println();
+        // printMatrix(grid);
+        // System.out.println();
 
         printMatrix(dp);
           return ans==0?0:ans-1;
