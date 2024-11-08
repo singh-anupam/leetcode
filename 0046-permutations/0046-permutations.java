@@ -1,35 +1,24 @@
 class Solution {
-    List<List<Integer>> ans;
     public List<List<Integer>> permute(int[] nums) {
-        ans = new ArrayList<>();
-
-         find(nums,new ArrayList<>());
-
-         return ans;
+        List<List<Integer>>subset = new ArrayList<>();
+        boolean used[] = new boolean[nums.length];
+        dfs(subset,nums,used,new ArrayList());
+        return subset;
         
-
-
     }
-
-    private void find(int arr[], List<Integer> list)
+    void dfs(List<List<Integer>> subset,int nums[],boolean used[],List<Integer> current)
     {
-        if(list.size()==arr.length)
+        if(current.size()==nums.length)
+            subset.add(new ArrayList(current));
+        for(int i=0;i<nums.length;i++)
         {
-            ans.add(new ArrayList(list));
-            return ;
-        }
-
-        for(int i=0;i<arr.length;i++){
-            if(list.contains(arr[i]))
-            continue;
-
-            list.add(arr[i]);
-
-            find(arr,list);
-            list.remove(list.size()-1);
-
-
-
+            if(used[i]==true)
+                continue;
+            current.add(nums[i]);
+            used[i]=true;
+            dfs(subset,nums,used,current);
+            current.remove(current.size()-1);
+            used[i]=false;
         }
     }
 }
