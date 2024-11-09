@@ -1,27 +1,38 @@
 class Solution {
+    List<List<Integer>> ans;
+    Set<List<Integer>> set;
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+         ans = new ArrayList<>();
+        set=new HashSet<>();
         Arrays.sort(candidates);
-        List<List<Integer>>subset = new ArrayList<>();
-        dfs(subset,0,candidates,target,new ArrayList());
-        return subset;
+        boolean vis[] = new boolean[candidates.length];
+        find(candidates,target,0,new ArrayList<>(),vis);
+
+        return ans;
+
+        
     }
-    void dfs(List<List<Integer>>subset,int index,int candidates[],int target,List<Integer> current)
+
+    private void find(int arr[],int target, int pos, List<Integer> list,boolean vis[])
     {
         if(target<0)
-            return;
-        if(target==0  )
-        {
-            subset.add(new ArrayList(current));
-            return;
+        return ;
+        if(target==0){
+          
+            ans.add(new ArrayList<>(list));
+            return ;
         }
-        for(int i=index;i<candidates.length;i++)
-        {
-           // if(i>0 && candidates[i]==candidates[i-1])
-              //  continue;
-            if (i != index && candidates[i] == candidates[i - 1]) { continue; }
-            current.add(candidates[i]);
-            dfs(subset,i+1,candidates,target-candidates[i],current);
-            current.remove(current.size()-1);
-        }
+        if(pos==arr.length)
+        return ;
+
+     for(int i=pos;i<arr.length;i++){
+        if(i>0 && arr[i]==arr[i-1] && !vis[i-1])
+        continue;
+        list.add(arr[i]);
+        vis[i]=true;
+        find(arr,target-arr[i],i+1,list,vis);
+        vis[i]=false;
+        list.remove(list.size()-1);
+     }
     }
 }
