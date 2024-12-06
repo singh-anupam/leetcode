@@ -3,7 +3,7 @@ class Solution {
 
         Arrays.sort(banned);
      //   List<Integer> l = Arrays.asList(banned);
-        Arrays.stream(banned).forEach(i->System.out.print(i+" "));
+     //   Arrays.stream(banned).forEach(i->System.out.print(i+" "));
         int count=0;
         int x=0;long sum=0;
         for(int i=1;i<=n;i++){
@@ -20,7 +20,7 @@ class Solution {
             
             sum+=i;
             System.out.println(sum +" "+i);
-            if(sum>=maxSum)
+            if(sum>maxSum)
             return count;
 
         count++;
