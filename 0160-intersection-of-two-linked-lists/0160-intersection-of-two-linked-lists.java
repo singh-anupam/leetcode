@@ -35,6 +35,13 @@ public class Solution {
             if(slow==fast)
             break;
         }
+        if(fast==null || fast.next==null)
+        {
+            prev.next = null;
+            headA=root1;
+            headB=root2;
+            return null;
+        }
         ListNode ans =null;
         while(headB!=null){
             if(slow==headB)
@@ -42,11 +49,12 @@ public class Solution {
                 ans=slow;
                 break;
             }
-            headB=headB.next;
+            
             if(slow==null){
                 ans =null;
                 break;
             }
+            headB=headB.next;
             slow=slow.next;
         }
         prev.next=null;
