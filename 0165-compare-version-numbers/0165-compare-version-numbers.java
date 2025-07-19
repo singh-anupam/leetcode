@@ -13,7 +13,7 @@ class Solution {
             System.out.println(a+" "+b);
             if(a<b)
             return -1;
-            if(b>a)
+            if(a>b)
             return 1;
             i++;
             j++;
