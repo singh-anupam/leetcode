@@ -14,7 +14,7 @@ class Solution {
          set.add(str);
 
         while(i<s.length()){
-            String sub =s.substring(i-10,i);
+            String sub =s.substring(i-9,i+1);
             if(set.contains(sub) && !ans.contains(sub))
             ans.add(sub);
             else
@@ -22,9 +22,9 @@ class Solution {
             i++;
         }
 
-        // for(String st :  set){
-        //     System.out.println(st);
-        // }
+        for(String st :  set){
+            System.out.println(st);
+        }
         return ans;
         
     }
