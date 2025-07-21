@@ -1,32 +1,35 @@
 class Solution {
     public int minEatingSpeed(int[] piles, int h) {
-        int l =1;
-        int r =1;
-        for(int i : piles){
-            r = Math.max(r,i);
-        }
-        int ans =r;
-        while(l<=r){
-            int mid = l+(r-l)/2;
-            if(canEat(piles,h,mid)){
-                ans =mid;
-                r =mid-1;
-            }else{
-                l=mid+1;
-            }
-        }
-
-        return ans;
         
-    }
-
-    private boolean canEat(int arr[], int target, int k){
-        int count=0;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]%k==0)
-            count+=arr[i]/k;
+        int r =0;
+        for(int i :  piles)
+        {
+            r = Math.max(i,r);
+        }
+        int l =1;
+        int ans=r;
+        while(l<=r)
+        {
+            int mid = l+(r-l)/2;
+            if(isAble(piles,mid,h))
+            {
+                ans=mid;
+                r=mid-1;
+            }
             else
-            count+=arr[i]/k+1;
+            l=mid+1;
+        }
+        return ans;
+    }
+    private boolean isAble(int arr[], int t, int target)
+    {
+        long count=0;
+        for(int i : arr)
+        {
+            count+=i/t;
+            if(i%t!=0)
+            count+=1;
+
         }
         return count<=target;
     }
