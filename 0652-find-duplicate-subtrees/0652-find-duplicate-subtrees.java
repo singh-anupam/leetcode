@@ -25,10 +25,10 @@ class Solution {
         return "";
         String left = dfs(node.left,ans, map);
         String right = dfs(node.right, ans, map);
-        String inorder = left+" "+node.val+" "+right;
-        map.put(inorder,map.getOrDefault(inorder,0)+1);
-        if(map.get(inorder)==2)
+        String preorder = node.val+" "+left+" "+right;
+        map.put(preorder,map.getOrDefault(preorder,0)+1);
+        if(map.get(preorder)==2)
         ans.add(node);
-        return inorder;
+        return preorder;
     }
 }
