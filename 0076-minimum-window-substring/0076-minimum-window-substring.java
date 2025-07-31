@@ -21,7 +21,7 @@ class Solution {
             }
             System.out.println("count "+count);
             while(count==t.length()){
-                System.out.println(s.substring(l,r+1));
+                // System.out.println(s.substring(l,r+1));
                 if(r-l+1<len){
                     ans = s.substring(l,r+1);
                     len = r-l+1;
