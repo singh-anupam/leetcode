@@ -1,0 +1,29 @@
+class Solution {
+    public int minDistance(String word1, String word2) {
+
+        int dp[][] = new int[word1.length()][word2.length()];
+        for(int arr[]: dp){
+            Arrays.fill(arr,-1);
+        }
+
+        return find(word1,word2,0,0,dp);
+        
+    }
+
+    private int find(String word1, String word2, int i, int j, int dp[][])
+    {
+        if(i==word1.length() && j==word2.length()){
+            return 0;
+        }
+        if(i==word1.length())
+        return word2.length()-j;
+        if(j==word2.length())
+        return word1.length()-i;
+        if(dp[i][j]!=-1)
+        return dp[i][j];
+        if(word1.charAt(i)==word2.charAt(j))
+        return dp[i][j] = find(word1,word2,i+1,j+1,dp);
+        else
+        return dp[i][j] = Math.min(find(word1,word2,i+1,j+1,dp),Math.min(find(word1,word2,i+1,j,dp),find(word1,word2,i,j+1,dp)))+1;
+    }
+}
