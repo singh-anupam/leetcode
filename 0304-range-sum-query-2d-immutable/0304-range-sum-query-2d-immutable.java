@@ -11,17 +11,11 @@ class NumMatrix {
     }
 
     private int[][] prefix(int matrix[][]){
-        int arr[][] = new int[matrix.length][matrix[0].length];
-        for(int i=0;i<matrix.length;i++){
-            for(int j=0;j<matrix[0].length;j++){
-                if(i==0 && j==0)
-                arr[i][j]=matrix[i][j];
-                else if(i==0)
-                    arr[i][j]=arr[i][j-1]+matrix[i][j];
-                else if(j==0)
-                    arr[i][j] = matrix[i][j]+matrix[i-1][j];
-                else
-                    arr[i][j]=matrix[i][j]-arr[i-1][j-1]+arr[i-1][j]+arr[i][j-1];
+        int arr[][] = new int[matrix.length+1][matrix[0].length+1];
+        for(int i=1;i<=matrix.length;i++){
+            for(int j=1;j<=matrix[0].length;j++){
+             
+                    arr[i][j]=matrix[i-1][j-1]-arr[i-1][j-1]+arr[i-1][j]+arr[i][j-1];
                 
             }
         }
@@ -41,7 +35,11 @@ class NumMatrix {
     
     public int sumRegion(int row1, int col1, int row2, int col2) {
 
-        int sum = arr[row2][col2]-arr[row1-1][col2]-arr[row2][col1-1]+arr[row1-1][col1-1];
+        // int x = row1==0?0:arr[row1-1][col2];
+        // inty = col1==0?0:arr[row2][col1-1];
+
+
+        int sum = arr[row2+1][col2+1]-arr[row1][col2+1]-arr[row2+1][col1]+arr[row1][col1];
         return sum;
         
     }
