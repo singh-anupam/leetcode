@@ -14,36 +14,34 @@
  * }
  */
 class Solution {
-    String str = "";
     public String tree2str(TreeNode root) {
+        String result = find(root);
+        return result;
+        // int i=result.length()-2;
+        // // while(i>=0){
+        // //     if(result.charAt(i)=='(' && result.charAt(i+1)==')')
+        // //     i-=2;
+        // //     else
+        // //     break;
+           
+        // // }
+        // return result.substring(0,i+2);
         
-     return  traverse(root);
-   //     return str;
     }
-   public String traverse (TreeNode root)
-    {
+
+    private String find(TreeNode root){
         if(root==null)
-        {
-        
-            return "";
-            
-        }
-      //  str+=root.val;
-    
-       String lstr = traverse(root.left);
-       String rstr =traverse(root.right);
-     
-       if(root.left==null && root.right==null)
+        return "";
+        String left = find(root.left);
+        String right = find(root.right);
+        if(root.left==null && root.right==null)
            return ""+root.val;
        if(root.left==null)
-           return ""+root.val+"()"+"("+rstr+")";
+           return ""+root.val+"()"+"("+right+")";
        if(root.right==null)
-           return ""+root.val+"("+lstr+")";
-       return ""+root.val+"("+lstr+")"+"("+rstr+")";
-           
-       
-        //str+=")";
-        
-            
+           return ""+root.val+"("+left+")";
+       return ""+root.val+"("+left+")"+"("+right+")";
+
+
     }
 }
