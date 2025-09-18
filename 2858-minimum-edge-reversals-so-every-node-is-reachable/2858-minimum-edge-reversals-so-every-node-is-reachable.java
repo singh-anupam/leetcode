@@ -10,7 +10,7 @@ class Solution {
     public int[] minEdgeReversals(int n, int[][] edges) {
 
         List<List<Pair>> graph = new ArrayList<>();
-        for(int i=-0;i<n;i++){
+        for(int i=0;i<n;i++){
             graph.add(new ArrayList<>());
         }
 
@@ -24,6 +24,7 @@ class Solution {
         int ans[] = new int[n];
         boolean vis[] = new boolean[n];
       ans[0]=  dfs(graph,0,vis);
+      System.out.println(ans[0]);
       vis = new boolean[n];
       reset(graph,0,vis,ans);
         return ans;
@@ -48,10 +49,11 @@ class Solution {
     private int dfs(List<List<Pair>> graph, int src, boolean vis[]){
   
        int x =0;
+        vis[src]=true;
        
         for(Pair p : graph.get(src)){
             if(!vis[p.nbr]){
-                vis[p.nbr]=true;
+               
                x+=dfs(graph,p.nbr,vis)+p.cost;
             }
         }
