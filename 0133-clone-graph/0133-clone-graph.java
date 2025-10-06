@@ -19,28 +19,25 @@ class Node {
 */
 
 class Solution {
-    public Node cloneGraph(Node node) {
+     public Node cloneGraph(Node node){
+    boolean vis[] =new boolean[101];
+    Map<Integer,Node> map = new HashMap<>();
+    return cloneGraph2(node,vis,map);
+     }
+    public Node cloneGraph2(Node node,boolean vis[], Map<Integer,Node> map) {
         if(node==null)
-            return null;
-        Queue<Node> q = new LinkedList<>();
-        q.add(node);
-        Map<Integer,Node> map= new HashMap<>();
-        map.put(node.val,new Node(node.val));
-        while(!q.isEmpty())
-        {
-            Node temp = q.poll();
-            for(Node n: temp.neighbors)
-            {
-                if(!map.containsKey(n.val))
-                {
-                    q.add(n);
-                    map.put(n.val,new Node(n.val));
-                }
-                map.get(temp.val).neighbors.add(map.get(n.val));
-                    
-            }
-        }
+        return null;
+        if( vis[node.val])
         return map.get(node.val);
-        
+
+        Node root = new Node(node.val);
+        map.put(node.val,root);
+        vis[root.val]=true;
+        List<Node> nbrs  = root.neighbors;
+        for(Node nbr : node.neighbors){
+          
+            nbrs.add(cloneGraph2(nbr,vis,map));
+        }
+        return root;
     }
 }
