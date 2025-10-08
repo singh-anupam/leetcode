@@ -15,27 +15,35 @@
  */
 class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
-        if (root == null) return null;  // critical corner case
-        if (key < root.val) {
-            root.left = deleteNode(root.left, key);
-        } else if (key > root.val) {
-            root.right = deleteNode(root.right, key);
-        } else {
-            if (root.left == null) return root.right;
-            else if (root.right == null) return root.left;
-            else {
-                TreeNode minNode = findMin(root.left);
-                root.val = minNode.val;
-                root.left = deleteNode(root.left, minNode.val);
-            }
+        if(root==null)
+        return null;
+        if(root.val>key)
+        root.left = deleteNode(root.left,key);
+        else if(root.val<key)
+        root.right =  deleteNode(root.right,key);
+        else
+        {
+            if(root.left==null)
+            return root.right;
+            if(root.right==null)
+            return root.left;
+            TreeNode node = getRightNode(root.left);
+            root.val = node.val;
+            root.left = deleteNode(root.left,node.val);
+            
         }
         return root;
+        
     }
 
-    private TreeNode findMin(TreeNode node) {
-        while (node.right != null) {
-            node = node.right;
+    private TreeNode getRightNode(TreeNode root)
+    {
+        TreeNode prev =null;
+        while(root!=null)
+        {
+            prev = root;
+            root= root.right;
         }
-        return node;
+        return prev;
     }
 }
