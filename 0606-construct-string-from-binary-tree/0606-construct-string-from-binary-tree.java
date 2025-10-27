@@ -17,15 +17,7 @@ class Solution {
     public String tree2str(TreeNode root) {
         String result = find(root);
         return result;
-        // int i=result.length()-2;
-        // // while(i>=0){
-        // //     if(result.charAt(i)=='(' && result.charAt(i+1)==')')
-        // //     i-=2;
-        // //     else
-        // //     break;
-           
-        // // }
-        // return result.substring(0,i+2);
+    
         
     }
 
