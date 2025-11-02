@@ -21,17 +21,15 @@ class Solution {
         int i=0;
         int j=0;
         int sum=0;
-        int min=Integer.MAX_VALUE;
+        int max=Integer.MIN_VALUE;
         while(j<arr.length){
             sum+=arr[j];
-            while(sum>=target){
-                min=Math.min(j-i+1,min);
-                if(min<=size)
-                return true;
-                sum-=arr[i++];
-            }
+           if(j-i+1==size){
+            max=Math.max(max,sum);
+            sum-=arr[i++];
+           }
             j++;
         }
-        return min<=size;
+        return max>=target;
     }
 }
