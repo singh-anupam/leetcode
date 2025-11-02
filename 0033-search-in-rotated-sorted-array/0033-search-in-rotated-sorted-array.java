@@ -1,44 +1,26 @@
 class Solution {
-    public int search(int[] nums, int target) {
-        int lo =0;
-        int hi = nums.length-1;
-        while(lo<=hi)
-        {
-            int mid = lo+(hi-lo)/2;
-            if(nums[mid]==target)
-                return mid;
-            
-            if(nums[mid]>=nums[lo])
-            {
-                if(nums[lo]<=target && target<=nums[mid])
-                    hi=mid-1;
+    public int search(int[] arr, int target) {
+
+        int l =0;
+        int r = arr.length-1;
+        while(l<=r){
+            int mid = l+(r-l)/2;
+            if(arr[mid]==target)
+            return mid;
+            if(arr[mid]>arr[l]){
+                if(arr[mid]>target && arr[l]<=target)
+                r=mid-1;
                 else
-                    lo=mid+1;
-            }
-            else
-            {
-                if(nums[hi]>=target && target>=nums[mid])
-                    lo =mid+1;
+                l=mid+1;
+            }else{
+                if(arr[r]>=target && arr[mid]<target)
+                l=mid+1;
                 else
-                    hi =mid-1;
+                r=mid-1;
+
             }
-            
         }
-       // return -1;
-        
-        
         return -1;
         
     }
-//     public int find(int lo, int hi)
-//     {
-//         while(lo<=hi)
-//         {
-//             int mid = lo + (hi-lo)/2;
-            
-//             if(nums[mid]==target)
-//                 return mid;
-            
-//         }
-    //}
 }
