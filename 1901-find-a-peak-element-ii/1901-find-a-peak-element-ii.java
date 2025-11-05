@@ -15,7 +15,7 @@ class Solution {
             }
 
             int left = mid==0?-1:mat[max][mid-1];
-            int right =mid==m?-1:mat[max][mid+1];
+            int right =mid==m-1?-1:mat[max][mid+1];
             if(mat[max][mid]>left && mat[max][mid]>right)
             return new int[]{max,mid};
 
