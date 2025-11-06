@@ -1,42 +1,51 @@
 class Solution {
     class Pair{
-        int nbr;
-        double x;
-        Pair(int nbr, double x){
-            this.nbr = nbr;
-            this.x = x;
+        int x;
+        double cost;
+        Pair(int x, double cost){
+            this.x =x;
+            this.cost = cost;
         }
     }
-    public double maxProbability(int n, int[][] edges, double[] succProb, int start_node, int end_node) {
+    public double maxProbability(int n, int[][] edges, double[] succProb, int start, int end) {
+
         List<List<Pair>> graph = new ArrayList<>();
         for(int i=0;i<n;i++){
             graph.add(new ArrayList<>());
         }
+        int x=0;
+        for(int edge[] : edges){
+            int u = edge[0];
+            int v = edge[1];
+            graph.get(u).add(new Pair(v,succProb[x]));
+            graph.get(v).add(new Pair(u,succProb[x++]));
 
-        double vis[] = new double[n];
-        int y =0;
-
-        for(int edge[]: edges){
-            graph.get(edge[0]).add(new Pair(edge[1],succProb[y]));
-            graph.get(edge[1]).add(new Pair(edge[0],succProb[y++]));
         }
-        return find(graph,start_node,end_node, vis);
-        
-    }
+        double arr[] = new double[n];
+        PriorityQueue<Pair> pq = new PriorityQueue<>((a,b)->Double.compare(b.cost,a.cost));
+        pq.offer(new Pair(start,1.0));
 
-    private double find(List<List<Pair>> graph, int src, int dst, double vis[]){
-        Queue<Pair> q = new LinkedList<>();
-        q.offer(new Pair(src,1));
-        while(q.size()>0){
-            Pair rm = q.poll();
-            for(Pair p : graph.get(rm.nbr)){
-                if(vis[p.nbr]<rm.x*p.x){
-                    q.offer(new Pair(p.nbr,p.x*rm.x));
-                    vis[p.nbr]=rm.x*p.x;
-
+        arr[start]=1.0;
+        while(pq.size()>0){
+            Pair rm = pq.poll();
+            System.out.println(rm.x+" "+rm.cost+" "+arr[rm.x]);
+            if(rm.x==end)
+            return rm.cost;
+            for(Pair nbr :  graph.get(rm.x)){
+                
+                if(arr[nbr.x]<rm.cost*nbr.cost){
+                    arr[nbr.x]=rm.cost*nbr.cost;
+                     pq.offer(new Pair(nbr.x,nbr.cost*rm.cost));
+                   
                 }
             }
         }
-        return vis[dst];
+
+        return 0.00;
+
+
+
+
+        
     }
 }
