@@ -39,11 +39,11 @@ class Solution {
         
     }
     
-    private boolean isSame(List<Integer> l1, List<Integer> l2)
-    {
-        for(int i=0;i<=2;i++)
-            if(l1.get(i)!=l2.get(i))
-                return false;
-        return true;
-    }
+    // private boolean isSame(List<Integer> l1, List<Integer> l2)
+    // {
+    //     for(int i=0;i<=2;i++)
+    //         if(l1.get(i)!=l2.get(i))
+    //             return false;
+    //     return true;
+    // }
 }
