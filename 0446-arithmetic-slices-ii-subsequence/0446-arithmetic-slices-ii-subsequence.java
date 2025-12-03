@@ -1,20 +1,17 @@
 class Solution {
     public int numberOfArithmeticSlices(int[] nums) {
-        int n = nums.length;
-        int result = 0;
-        Map<Long,Integer> map[] = new HashMap[n];
-        for(int i =0;i<n;i++)
-        {
+        Map<Long,Integer> map[] = new HashMap[nums.length];
+        int ans =0;
+        for(int i=0;i<nums.length;i++){
             map[i] = new HashMap<>();
-            for(int j=0;j<i;j++)
-            {
-                long diff = (long)nums[i]-nums[j];
-                int cnt_At_j = map[j].getOrDefault(diff,0);
-                result+=cnt_At_j;
-                map[i].put(diff,map[i].getOrDefault(diff, 0) + cnt_At_j + 1);
+            for(int j=0;j<i;j++){
+                long diff = (long)(nums[i]-nums[j]);
+                int cnt = map[j].getOrDefault(diff,0);
+                ans+=cnt;
+                map[i].put(diff,map[i].getOrDefault(diff,0)+cnt+1);
             }
         }
-        return result;
+        return ans;
         
     }
 }
