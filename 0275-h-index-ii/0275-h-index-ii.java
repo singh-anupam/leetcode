@@ -1,9 +1,9 @@
 class Solution {
     public int hIndex(int[] citations) {
-        int arr[] = new int[citations.length];
+        int arr[] = new int[citations.length+1];
         for(int i=0;i<citations.length;i++){
             if(citations[i]>=arr.length)
-            arr[citations.length-1]++;
+            arr[citations.length]++;
             else
             arr[citations[i]]++;
         }
