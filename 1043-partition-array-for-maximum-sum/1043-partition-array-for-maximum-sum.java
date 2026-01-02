@@ -1,31 +1,34 @@
 class Solution {
     public int maxSumAfterPartitioning(int[] arr, int k) {
-
         int dp[] = new int[arr.length];
         Arrays.fill(dp,-1);
 
-        return find(arr,k,0,dp);
+        return find(arr,0,k,dp);
         
     }
 
-    private int find(int arr[], int k, int pos, int dp[])
-    {
-        if(pos==arr.length)
+    private int find(int arr[], int idx, int k, int dp[]){
+        if(idx>=arr.length)
         return 0;
-        if(dp[pos]!=-1)
-        return dp[pos];
-        int l= pos;
-        int ans =Integer.MIN_VALUE;
-        int r = Math.min(pos+k,arr.length);
-        int max =arr[pos];
-        int count=1,sum=0;
-        for(int i =l;i<r;i++){
-            max = Math.max(arr[i],max);
-            sum=(count*max)+find(arr,k,i+1,dp);
-            count++;
-            ans =Math.max(sum,ans);
+
+        if(dp[idx]!=-1)
+        return dp[idx];
+
+        int sum =0;
+        int ans =0;
+        int max =0;
+
+        for(int i=1;i<=k;i++){
+            if(idx+i-1>=arr.length)
+            continue;
+            int element =arr[idx+i-1];
+
+            max = Math.max(max, element);
+            sum=max*i;
+            ans = Math.max(ans,sum+find(arr,idx+i,k,dp));
+
 
         }
-        return dp[pos]= ans;
+        return dp[idx] = ans;
     }
 }
