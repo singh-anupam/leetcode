@@ -1,29 +1,37 @@
 class Solution {
-    public int[] exclusiveTime(int n, List<String> logs) {
-        int ans[] = new int[n];
-        Stack<Integer> stack = new Stack<>();
-        int prev =-1;
-        for(String log : logs){
-            String arr[] = log.split(":");
-            int id = Integer.parseInt(arr[0]);
-            int currTime = Integer.parseInt(arr[2]);
-            boolean isStart = arr[1].equals("start")?true:false;
+    class Pair{
+        int id;
+        int start;
+        Pair(int id, int start){
+            this.id = id;
+            this.start=start;
 
-            if(isStart){
-                if(!stack.isEmpty()){
-                    int topId = stack.peek();
-                    ans[topId]+=currTime-prev-1;
+        }
+    }
+    public int[] exclusiveTime(int n, List<String> logs) {
+        Stack<Pair> stack = new Stack<>();
+        int arr[] = new int[n];
+        for(String str :  logs){
+            String brr[] = str.split(":");
+            if(brr[1].equals("start")){
+                if(stack.size()>0){
+                    Pair p = stack.peek();
+                    arr[p.id]+=Integer.parseInt(brr[2])-p.start;
                 }
-                stack.push(id);
+
+                stack.push(new Pair(Integer.parseInt(brr[0]),Integer.parseInt(brr[2])));
 
             }else{
-                int topId = stack.pop();
-                ans[topId]+=currTime-prev+1;
+                Pair rm = stack.pop();
+                arr[rm.id]+=Integer.parseInt(brr[2])-(rm.start)+1;
+                if(stack.size()>0){
+                    Pair p = stack.peek();
+                    p.start = Integer.parseInt(brr[2])+1;
+                }
             }
-            prev = currTime;
         }
 
-        return ans;
+        return arr;
         
     }
 }
