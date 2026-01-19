@@ -1,37 +1,43 @@
 class Solution {
     public int[] loudAndRich(int[][] richer, int[] quiet) {
-
         List<List<Integer>> graph = new ArrayList<>();
         for(int i=0;i<quiet.length;i++){
             graph.add(new ArrayList<>());
         }
 
-        for(int i=0;i<richer.length;i++){
-            graph.get(richer[i][1]).add(richer[i][0]);
+        for(int arr[] : richer){
+            graph.get(arr[1]).add(arr[0]);
+
         }
-        
+
         int ans[] = new int[quiet.length];
-        for(int i=0;i<ans.length;i++){
+        for(int i=0;i<quiet.length;i++){
             ans[i]=i;
         }
-        dfs(graph,ans,quiet,0);
 
+        boolean vis[] = new boolean[quiet.length];
+        for(int i=0;i<quiet.length;i++){
+            if(!vis[i]){
+                 dfs(graph,i,vis,ans,quiet);
+            }
+        }
+        
         return ans;
     }
 
-    private int dfs(List<List<Integer>> graph, int ans[], int quiet[], int src){
-                
-        for(int nbr: graph.get(src)){
-           
-           int val =  dfs(graph,ans,quiet,nbr);
+    private int dfs(List<List<Integer>>graph, int src, boolean vis[], int ans[], int quiet[]){
+        if(vis[src])
+        return ans[src];
 
-        
-            if(quiet[ans[src]]>quiet[val]){
-                //  System.out.println(src+" "+nbr+" "+ans[src]+" "+ans[nbr]);
+        vis[src]=true;
+
+        for(int nbr : graph.get(src)){
+            int val = dfs(graph,nbr,vis,ans,quiet);
+            if(quiet[val]<quiet[ans[src]]){
                 ans[src]=val;
             }
-             
         }
+
         return ans[src];
     }
 }
