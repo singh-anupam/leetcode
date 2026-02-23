@@ -1,31 +1,26 @@
 class Solution {
-    int mod =1000000007;
+    int mod = 1_000_000_007;
     public int findPaths(int m, int n, int maxMove, int startRow, int startColumn) {
-        long dp[][][]=new long[m][n][maxMove+1];
-        for(int i=0;i<m;i++)
-        {
-            for(long arr[] : dp[i])
-            Arrays.fill(arr,-1);
-        }
-
-        return (int)find(m,n,startRow,startColumn, maxMove, dp);
+        int dp[][][] = new int[m][n][maxMove+1];
+        for(int d[][] : dp)
+        for(int b[] : d)
+        Arrays.fill(b,-1);
+        return find(m,n,maxMove,startRow,startColumn,dp);
+        
     }
 
-    private long find(int m,int n, int i, int j, int count,long dp[][][])
-    {
-        if(count<0)
-        return 0;
-        if(i>=m || j>=n || i<0 || j<0 )
+    private int find(int m, int n, int move,int i, int j, int dp[][][]){
+        if(i<0 || j<0 || i>=m || j>=n)
         return 1;
-        if(dp[i][j][count]!=-1)
-        return dp[i][j][count];
-
-        long left = find(m,n,i,j-1,count-1,dp);
-        long right = find(m,n,i,j+1,count-1,dp);
-        long up = find(m,n,i-1,j,count-1,dp);
-        long down = find(m,n,i+1,j,count-1,dp);
-        long sum = left+right+up+down;
-        return dp[i][j][count]=(left+right+up+down)%mod;
+        if(move<=0)
+        return 0;
+        if(dp[i][j][move]!=-1)
+        return dp[i][j][move];
+        int d = find(m,n,move-1,i+1,j,dp);
+        int u = find(m,n,move-1,i-1,j,dp);
+        int l = find(m,n,move-1,i,j-1,dp);
+        int r = find(m,n,move-1,i,j+1,dp);
+        return dp[i][j][move] = ((u+d)%mod+(l+r)%mod)%mod;
 
     }
 }
