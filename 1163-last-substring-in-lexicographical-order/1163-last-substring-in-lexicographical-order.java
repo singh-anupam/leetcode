@@ -1,25 +1,24 @@
 class Solution {
     public String lastSubstring(String s) {
-        int maxCharIndex = s.length()-1;
-        for(int i=s.length()-1;i>=0;i--){
-            if(s.charAt(i)>s.charAt(maxCharIndex)){
-                maxCharIndex=i;
-            }
-            else if(s.charAt(i)==s.charAt(maxCharIndex)){
-                int x=i+1;
-                int y=maxCharIndex+1;
-                while(x<maxCharIndex && y <s.length() && s.charAt(x)==s.charAt(y)){
-                    x++;
-                    y++;
-                }
-                if(x==maxCharIndex || y ==s.length() || s.charAt(x)>s.charAt(y))
-                {
-                    maxCharIndex=i;
-                }
+        int i =0;
+        int j =1;
+        int k =0;
+        int n = s.length();
+        char arr[] = s.toCharArray();
+        while(j+k<n){
+            if(arr[i+k]==arr[j+k]){
+                k++;
+            }else if(arr[i+k]>arr[j+k]){
+                j=j+k+1;
+                k=0;
+            }else{
+                i = Math.max(i+k+1,j);
+                j=i+1;
+                k=0;
             }
         }
 
-        return s.substring(maxCharIndex);
+        return s.substring(i);
         
     }
 }
