@@ -26,6 +26,7 @@ Data Structure Problem
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/singh-anupam/leetcode/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [1163-last-substring-in-lexicographical-order](https://github.com/singh-anupam/leetcode/tree/main/1163-last-substring-in-lexicographical-order/) | Hard |
 | [1616-split-two-strings-to-make-palindrome](https://github.com/singh-anupam/leetcode/tree/main/1616-split-two-strings-to-make-palindrome/) | Medium |
 ## Binary Search
@@ -36,4 +37,16 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/singh-anupam/leetcode/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/singh-anupam/leetcode/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/singh-anupam/leetcode/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 <!---LeetCode Topics End-->
