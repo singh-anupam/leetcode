@@ -6,6 +6,7 @@ Data Structure Problem
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [0948-bag-of-tokens](https://github.com/singh-anupam/leetcode/tree/main/0948-bag-of-tokens/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 ## Two Pointers
@@ -49,4 +50,16 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/singh-anupam/leetcode/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 <!---LeetCode Topics End-->
