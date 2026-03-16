@@ -9,6 +9,7 @@ Data Structure Problem
 | [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [0948-bag-of-tokens](https://github.com/singh-anupam/leetcode/tree/main/0948-bag-of-tokens/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [2258-escape-the-spreading-fire](https://github.com/singh-anupam/leetcode/tree/main/2258-escape-the-spreading-fire/) | Hard |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -34,6 +35,7 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [2258-escape-the-spreading-fire](https://github.com/singh-anupam/leetcode/tree/main/2258-escape-the-spreading-fire/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -58,8 +60,10 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
+| [2258-escape-the-spreading-fire](https://github.com/singh-anupam/leetcode/tree/main/2258-escape-the-spreading-fire/) | Hard |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
+| [2258-escape-the-spreading-fire](https://github.com/singh-anupam/leetcode/tree/main/2258-escape-the-spreading-fire/) | Hard |
 <!---LeetCode Topics End-->
