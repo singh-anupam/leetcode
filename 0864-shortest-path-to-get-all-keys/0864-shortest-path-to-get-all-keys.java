@@ -19,16 +19,19 @@ class Solution {
             int size = q.size();
             for(int i=0;i<size;i++){
                 int rm[] = q.poll();
-                if((rm[0]==(maxlen<<1)-1))
+                if((rm[0]==(1<<maxlen)-1))
                 return steps;
+            
                 for(int dir[] : dirs){
                     int nx = rm[1]+dir[0];
                     int ny = rm[2]+dir[1];
+                     
                     if(nx<0 || nx>=grid.length || ny<0 || ny>=grid[0].length() || grid[nx].charAt(ny)=='#')
                     continue;
                     char ch = grid[nx].charAt(ny);
-                    if(ch>='A' && ch<='F' && (rm[0]>>(ch-'A'))&1==0)
+                    if(ch>='A' && ch<='F' && (rm[0]>>(ch-'A')&1)==0)
                     continue ;
+               
                     if(ch>='a' && ch<='f')
                     rm[0]|=(1<<ch-'a');
                     if(!vis.contains(rm[0]+""+nx+""+ny));
@@ -37,10 +40,11 @@ class Solution {
                         vis.add(rm[0]+""+nx+""+ny);
                     }
                 }
-                steps++;
+                
             }
+            steps++;
 
         }
-        return steps;
+        return -1;
     }
 }
