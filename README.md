@@ -46,6 +46,7 @@ Data Structure Problem
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/singh-anupam/leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [3660-jump-game-ix](https://github.com/singh-anupam/leetcode/tree/main/3660-jump-game-ix/) | Medium |
 ## Hash Table
@@ -104,5 +105,14 @@ Data Structure Problem
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/singh-anupam/leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [1306-jump-game-iii](https://github.com/singh-anupam/leetcode/tree/main/1306-jump-game-iii/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/singh-anupam/leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/singh-anupam/leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 <!---LeetCode Topics End-->
