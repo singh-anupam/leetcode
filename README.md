@@ -76,6 +76,7 @@ Data Structure Problem
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0743-network-delay-time](https://github.com/singh-anupam/leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [1306-jump-game-iii](https://github.com/singh-anupam/leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [2258-escape-the-spreading-fire](https://github.com/singh-anupam/leetcode/tree/main/2258-escape-the-spreading-fire/) | Hard |
@@ -103,6 +104,7 @@ Data Structure Problem
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0743-network-delay-time](https://github.com/singh-anupam/leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [0767-reorganize-string](https://github.com/singh-anupam/leetcode/tree/main/0767-reorganize-string/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
@@ -112,6 +114,7 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/singh-anupam/leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0743-network-delay-time](https://github.com/singh-anupam/leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [1306-jump-game-iii](https://github.com/singh-anupam/leetcode/tree/main/1306-jump-game-iii/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
@@ -141,4 +144,12 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0743-network-delay-time](https://github.com/singh-anupam/leetcode/tree/main/0743-network-delay-time/) | Medium |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0743-network-delay-time](https://github.com/singh-anupam/leetcode/tree/main/0743-network-delay-time/) | Medium |
 <!---LeetCode Topics End-->
