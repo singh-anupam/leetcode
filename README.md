@@ -6,6 +6,7 @@ Data Structure Problem
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0493-reverse-pairs](https://github.com/singh-anupam/leetcode/tree/main/0493-reverse-pairs/) | Hard |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
 | [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
@@ -50,6 +51,7 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/singh-anupam/leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [3660-jump-game-ix](https://github.com/singh-anupam/leetcode/tree/main/3660-jump-game-ix/) | Medium |
@@ -76,6 +78,7 @@ Data Structure Problem
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0743-network-delay-time](https://github.com/singh-anupam/leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [1306-jump-game-iii](https://github.com/singh-anupam/leetcode/tree/main/1306-jump-game-iii/) | Medium |
@@ -83,6 +86,7 @@ Data Structure Problem
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [2258-escape-the-spreading-fire](https://github.com/singh-anupam/leetcode/tree/main/2258-escape-the-spreading-fire/) | Hard |
 ## Binary Indexed Tree
@@ -114,6 +118,7 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/singh-anupam/leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0743-network-delay-time](https://github.com/singh-anupam/leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [1306-jump-game-iii](https://github.com/singh-anupam/leetcode/tree/main/1306-jump-game-iii/) | Medium |
 ## Tree
@@ -139,6 +144,7 @@ Data Structure Problem
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
 ## Bitmask
 | Problem Name | Difficulty |
@@ -147,9 +153,14 @@ Data Structure Problem
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0743-network-delay-time](https://github.com/singh-anupam/leetcode/tree/main/0743-network-delay-time/) | Medium |
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/singh-anupam/leetcode/tree/main/0743-network-delay-time/) | Medium |
+## Topological Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 <!---LeetCode Topics End-->
