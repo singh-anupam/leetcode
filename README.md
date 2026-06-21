@@ -13,6 +13,7 @@ Data Structure Problem
 | [0948-bag-of-tokens](https://github.com/singh-anupam/leetcode/tree/main/0948-bag-of-tokens/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1306-jump-game-iii](https://github.com/singh-anupam/leetcode/tree/main/1306-jump-game-iii/) | Medium |
+| [1833-maximum-ice-cream-bars](https://github.com/singh-anupam/leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [2258-escape-the-spreading-fire](https://github.com/singh-anupam/leetcode/tree/main/2258-escape-the-spreading-fire/) | Hard |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/singh-anupam/leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [3660-jump-game-ix](https://github.com/singh-anupam/leetcode/tree/main/3660-jump-game-ix/) | Medium |
@@ -28,12 +29,14 @@ Data Structure Problem
 | ------- | ------- |
 | [0767-reorganize-string](https://github.com/singh-anupam/leetcode/tree/main/0767-reorganize-string/) | Medium |
 | [0948-bag-of-tokens](https://github.com/singh-anupam/leetcode/tree/main/0948-bag-of-tokens/) | Medium |
+| [1833-maximum-ice-cream-bars](https://github.com/singh-anupam/leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0767-reorganize-string](https://github.com/singh-anupam/leetcode/tree/main/0767-reorganize-string/) | Medium |
 | [0948-bag-of-tokens](https://github.com/singh-anupam/leetcode/tree/main/0948-bag-of-tokens/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [1833-maximum-ice-cream-bars](https://github.com/singh-anupam/leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -171,4 +174,8 @@ Data Structure Problem
 | ------- | ------- |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/singh-anupam/leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1833-maximum-ice-cream-bars](https://github.com/singh-anupam/leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 <!---LeetCode Topics End-->
