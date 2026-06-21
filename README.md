@@ -14,6 +14,7 @@ Data Structure Problem
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1306-jump-game-iii](https://github.com/singh-anupam/leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1833-maximum-ice-cream-bars](https://github.com/singh-anupam/leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
+| [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/singh-anupam/leetcode/tree/main/1986-minimum-number-of-work-sessions-to-finish-the-tasks/) | Medium |
 | [2258-escape-the-spreading-fire](https://github.com/singh-anupam/leetcode/tree/main/2258-escape-the-spreading-fire/) | Hard |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/singh-anupam/leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [3660-jump-game-ix](https://github.com/singh-anupam/leetcode/tree/main/3660-jump-game-ix/) | Medium |
@@ -58,6 +59,7 @@ Data Structure Problem
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/singh-anupam/leetcode/tree/main/1986-minimum-number-of-work-sessions-to-finish-the-tasks/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/singh-anupam/leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [3660-jump-game-ix](https://github.com/singh-anupam/leetcode/tree/main/3660-jump-game-ix/) | Medium |
 ## Hash Table
@@ -80,6 +82,7 @@ Data Structure Problem
 | ------- | ------- |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
 | [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
+| [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/singh-anupam/leetcode/tree/main/1986-minimum-number-of-work-sessions-to-finish-the-tasks/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -149,6 +152,7 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
+| [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/singh-anupam/leetcode/tree/main/1986-minimum-number-of-work-sessions-to-finish-the-tasks/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -159,6 +163,7 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
+| [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/singh-anupam/leetcode/tree/main/1986-minimum-number-of-work-sessions-to-finish-the-tasks/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
