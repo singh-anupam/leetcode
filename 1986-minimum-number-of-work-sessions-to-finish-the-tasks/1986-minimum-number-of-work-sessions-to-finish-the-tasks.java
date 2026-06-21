@@ -3,8 +3,8 @@ class Solution {
        int mask =0;
        int total = (1<<tasks.length);
        int dp[][] = new int[total+1][sessionTime+1];
-       for(int arr[] : dp)
-       Arrays.fill(arr,-1);
+    //    for(int arr[] : dp)
+    //    Arrays.fill(arr,-1);
        return find(tasks,mask,0,sessionTime, dp);
     }
 
@@ -12,7 +12,7 @@ class Solution {
         if(mask==((1<<arr.length))-1)
         return 1;
 
-        if(dp[mask][sum]!=-1)
+        if(dp[mask][sum]!=0)
         return dp[mask][sum];
 
         int min = arr.length;
