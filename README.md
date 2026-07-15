@@ -46,6 +46,7 @@ Data Structure Problem
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
 | [0767-reorganize-string](https://github.com/singh-anupam/leetcode/tree/main/0767-reorganize-string/) | Medium |
 | [1163-last-substring-in-lexicographical-order](https://github.com/singh-anupam/leetcode/tree/main/1163-last-substring-in-lexicographical-order/) | Hard |
+| [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/singh-anupam/leetcode/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1616-split-two-strings-to-make-palindrome](https://github.com/singh-anupam/leetcode/tree/main/1616-split-two-strings-to-make-palindrome/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -79,6 +80,7 @@ Data Structure Problem
 | ------- | ------- |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/singh-anupam/leetcode/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/singh-anupam/leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
+| [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/singh-anupam/leetcode/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
