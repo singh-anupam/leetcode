@@ -8,6 +8,7 @@ Data Structure Problem
 | ------- | ------- |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0493-reverse-pairs](https://github.com/singh-anupam/leetcode/tree/main/0493-reverse-pairs/) | Hard |
+| [0643-maximum-average-subarray-i](https://github.com/singh-anupam/leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
 | [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
 | [0948-bag-of-tokens](https://github.com/singh-anupam/leetcode/tree/main/0948-bag-of-tokens/) | Medium |
@@ -77,6 +78,7 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/singh-anupam/leetcode/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
+| [0643-maximum-average-subarray-i](https://github.com/singh-anupam/leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
