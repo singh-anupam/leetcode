@@ -15,6 +15,7 @@ Data Structure Problem
 | [0948-bag-of-tokens](https://github.com/singh-anupam/leetcode/tree/main/0948-bag-of-tokens/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1306-jump-game-iii](https://github.com/singh-anupam/leetcode/tree/main/1306-jump-game-iii/) | Medium |
+| [1679-max-number-of-k-sum-pairs](https://github.com/singh-anupam/leetcode/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1833-maximum-ice-cream-bars](https://github.com/singh-anupam/leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/singh-anupam/leetcode/tree/main/1986-minimum-number-of-work-sessions-to-finish-the-tasks/) | Medium |
 | [2258-escape-the-spreading-fire](https://github.com/singh-anupam/leetcode/tree/main/2258-escape-the-spreading-fire/) | Hard |
@@ -27,6 +28,7 @@ Data Structure Problem
 | [0948-bag-of-tokens](https://github.com/singh-anupam/leetcode/tree/main/0948-bag-of-tokens/) | Medium |
 | [1163-last-substring-in-lexicographical-order](https://github.com/singh-anupam/leetcode/tree/main/1163-last-substring-in-lexicographical-order/) | Hard |
 | [1616-split-two-strings-to-make-palindrome](https://github.com/singh-anupam/leetcode/tree/main/1616-split-two-strings-to-make-palindrome/) | Medium |
+| [1679-max-number-of-k-sum-pairs](https://github.com/singh-anupam/leetcode/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/singh-anupam/leetcode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -41,6 +43,7 @@ Data Structure Problem
 | [0767-reorganize-string](https://github.com/singh-anupam/leetcode/tree/main/0767-reorganize-string/) | Medium |
 | [0948-bag-of-tokens](https://github.com/singh-anupam/leetcode/tree/main/0948-bag-of-tokens/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [1679-max-number-of-k-sum-pairs](https://github.com/singh-anupam/leetcode/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1833-maximum-ice-cream-bars](https://github.com/singh-anupam/leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -73,6 +76,7 @@ Data Structure Problem
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/singh-anupam/leetcode/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
 | [0767-reorganize-string](https://github.com/singh-anupam/leetcode/tree/main/0767-reorganize-string/) | Medium |
+| [1679-max-number-of-k-sum-pairs](https://github.com/singh-anupam/leetcode/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
