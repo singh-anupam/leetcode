@@ -6,6 +6,7 @@ Data Structure Problem
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/singh-anupam/leetcode/tree/main/0011-container-with-most-water/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0493-reverse-pairs](https://github.com/singh-anupam/leetcode/tree/main/0493-reverse-pairs/) | Hard |
 | [0643-maximum-average-subarray-i](https://github.com/singh-anupam/leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
@@ -22,6 +23,7 @@ Data Structure Problem
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/singh-anupam/leetcode/tree/main/0011-container-with-most-water/) | Medium |
 | [0948-bag-of-tokens](https://github.com/singh-anupam/leetcode/tree/main/0948-bag-of-tokens/) | Medium |
 | [1163-last-substring-in-lexicographical-order](https://github.com/singh-anupam/leetcode/tree/main/1163-last-substring-in-lexicographical-order/) | Hard |
 | [1616-split-two-strings-to-make-palindrome](https://github.com/singh-anupam/leetcode/tree/main/1616-split-two-strings-to-make-palindrome/) | Medium |
@@ -29,6 +31,7 @@ Data Structure Problem
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/singh-anupam/leetcode/tree/main/0011-container-with-most-water/) | Medium |
 | [0767-reorganize-string](https://github.com/singh-anupam/leetcode/tree/main/0767-reorganize-string/) | Medium |
 | [0948-bag-of-tokens](https://github.com/singh-anupam/leetcode/tree/main/0948-bag-of-tokens/) | Medium |
 | [1833-maximum-ice-cream-bars](https://github.com/singh-anupam/leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
