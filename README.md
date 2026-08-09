@@ -12,6 +12,7 @@ Data Structure Problem
 | [0643-maximum-average-subarray-i](https://github.com/singh-anupam/leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
 | [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
+| [0875-koko-eating-bananas](https://github.com/singh-anupam/leetcode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0948-bag-of-tokens](https://github.com/singh-anupam/leetcode/tree/main/0948-bag-of-tokens/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1306-jump-game-iii](https://github.com/singh-anupam/leetcode/tree/main/1306-jump-game-iii/) | Medium |
@@ -58,6 +59,7 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0493-reverse-pairs](https://github.com/singh-anupam/leetcode/tree/main/0493-reverse-pairs/) | Hard |
+| [0875-koko-eating-bananas](https://github.com/singh-anupam/leetcode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/singh-anupam/leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [2258-escape-the-spreading-fire](https://github.com/singh-anupam/leetcode/tree/main/2258-escape-the-spreading-fire/) | Hard |
 ## Dynamic Programming
