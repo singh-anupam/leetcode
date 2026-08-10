@@ -49,6 +49,7 @@ Data Structure Problem
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0072-edit-distance](https://github.com/singh-anupam/leetcode/tree/main/0072-edit-distance/) | Medium |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/singh-anupam/leetcode/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
 | [0767-reorganize-string](https://github.com/singh-anupam/leetcode/tree/main/0767-reorganize-string/) | Medium |
@@ -65,6 +66,7 @@ Data Structure Problem
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0072-edit-distance](https://github.com/singh-anupam/leetcode/tree/main/0072-edit-distance/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/singh-anupam/leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
