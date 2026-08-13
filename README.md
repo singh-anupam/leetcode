@@ -103,6 +103,7 @@ Data Structure Problem
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0100-same-tree](https://github.com/singh-anupam/leetcode/tree/main/0100-same-tree/) | Easy |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0743-network-delay-time](https://github.com/singh-anupam/leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [0864-shortest-path-to-get-all-keys](https://github.com/singh-anupam/leetcode/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
@@ -144,6 +145,7 @@ Data Structure Problem
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0100-same-tree](https://github.com/singh-anupam/leetcode/tree/main/0100-same-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/singh-anupam/leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/singh-anupam/leetcode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
@@ -153,11 +155,13 @@ Data Structure Problem
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0100-same-tree](https://github.com/singh-anupam/leetcode/tree/main/0100-same-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/singh-anupam/leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/singh-anupam/leetcode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0100-same-tree](https://github.com/singh-anupam/leetcode/tree/main/0100-same-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/singh-anupam/leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/singh-anupam/leetcode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 ## Linked List
