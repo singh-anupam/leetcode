@@ -7,6 +7,7 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/singh-anupam/leetcode/tree/main/0011-container-with-most-water/) | Medium |
+| [0046-permutations](https://github.com/singh-anupam/leetcode/tree/main/0046-permutations/) | Medium |
 | [0216-combination-sum-iii](https://github.com/singh-anupam/leetcode/tree/main/0216-combination-sum-iii/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/singh-anupam/leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0493-reverse-pairs](https://github.com/singh-anupam/leetcode/tree/main/0493-reverse-pairs/) | Hard |
@@ -175,6 +176,7 @@ Data Structure Problem
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0046-permutations](https://github.com/singh-anupam/leetcode/tree/main/0046-permutations/) | Medium |
 | [0216-combination-sum-iii](https://github.com/singh-anupam/leetcode/tree/main/0216-combination-sum-iii/) | Medium |
 | [0691-stickers-to-spell-word](https://github.com/singh-anupam/leetcode/tree/main/0691-stickers-to-spell-word/) | Hard |
 | [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/singh-anupam/leetcode/tree/main/1986-minimum-number-of-work-sessions-to-finish-the-tasks/) | Medium |
