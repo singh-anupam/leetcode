@@ -168,6 +168,7 @@ Data Structure Problem
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0092-reverse-linked-list-ii](https://github.com/singh-anupam/leetcode/tree/main/0092-reverse-linked-list-ii/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/singh-anupam/leetcode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
