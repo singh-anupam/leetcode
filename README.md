@@ -169,6 +169,7 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0092-reverse-linked-list-ii](https://github.com/singh-anupam/leetcode/tree/main/0092-reverse-linked-list-ii/) | Medium |
+| [0206-reverse-linked-list](https://github.com/singh-anupam/leetcode/tree/main/0206-reverse-linked-list/) | Easy |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/singh-anupam/leetcode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
@@ -227,4 +228,8 @@ Data Structure Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/singh-anupam/leetcode/tree/main/0062-unique-paths/) | Medium |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0206-reverse-linked-list](https://github.com/singh-anupam/leetcode/tree/main/0206-reverse-linked-list/) | Easy |
 <!---LeetCode Topics End-->
