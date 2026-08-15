@@ -10,59 +10,39 @@
  */
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
-        
+        ListNode prev = new ListNode(0);
         ListNode root = head;
-        
-        if(head==null)
-            return root;
-        int pos=1;
-     ListNode prev = new ListNode(-1);
-        while(pos<left)
-        {
-            
+    
+        for(int i=1;i<left;i++){
             prev = head;
             head=head.next;
-        //    System.out.println(prev.val+" "+head.val);
-            pos++;
-            
         }
-        ListNode temp = head;
-    //    System.out.println(temp.val);
-        ListNode arr[] = reverse(head,right,pos);
-        
+        int k = right-left;
+        ListNode tmp = head;
+
+        ListNode arr[] = reverse(head,k);
+        tmp.next = arr[1];
         prev.next = arr[0];
-        temp.next = arr[1];
-        
-    //    System.out.println(temp.val);
-        
-        if(1==left)
-            return prev.next;
-        return root;
-        
+
+        return left==1?prev.next:root;
+
+
+
         
     }
-    
-    
-    private ListNode[] reverse(ListNode head,int right, int pos)
-    {
+
+    private ListNode[] reverse(ListNode head, int k){
         ListNode prev = null;
-        ListNode temp=head.next;
-        while(pos<=right)
-        {
-         //   System.out.println(head.val);
-            temp = head.next;
-            head.next = prev;
+
+        while(k>=0){
+            ListNode temp = head.next;
+            head.next=prev;
             prev = head;
-            head = temp;
-          //  System.out.println(prev.val+" "+head.val);
-            pos++;
-        
-            
+            head =temp;
+            k--;
         }
-         
-        
-         
-        
+      
         return new ListNode[]{prev,head};
+
     }
 }
